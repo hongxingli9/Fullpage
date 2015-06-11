@@ -4,25 +4,25 @@ pure js fullpage plugin
 纯js全屏滚动插件
 使用：
 <pre>
-<div class="main">
-    <section class="page">
-        <h1>Page 1</h1>
-    </section>
-    <section class="page">
-        <h1>Page 2</h1>
-    </section>
-    <section class="page">
-        <h1>Page 3</h1>
-    </section>
-    <section class="page">
-        <h1>Page 4</h1>
-    </section>
-</div>
+&lt;div class="main"&gt;
+    &lt;section class="page"&gt;
+        &lt;h1&gt;Page 1&lt;/h1&gt;
+    &lt;/section&gt;
+    &lt;section class="page"&gt;
+        &lt;h1&gt;Page 2&lt;/h1&gt;
+    &lt;/section&gt;
+    &lt;section class="page"&gt;
+        &lt;h1&gt;Page3&lt;/h1&gt;
+    &lt;/section&gt;
+    &lt;section class="page"&gt;
+        &lt;h1&gt;Page 4&lt;/h1&gt;
+    &lt;/section&gt;
+&lt;/div&gt;
 
-<script type="text/javascript">	
+&lt;script type="text/javascript"&gt;
 	var container = document.querySelector(".main");
 	fullpage(container，{type:2});	
-</script>
+&lt;/script&gt;
 </pre>
 参数：
 <pre>
@@ -35,3 +35,7 @@ options = {
 	pagination				: true  //是否分页标注
 }
 </pre>
+
+参考：
+https://github.com/lvming6816077/H5FullscreenPage(https://github.com/lvming6816077/H5FullscreenPage)
+https://github.com/peachananr/purejs-onepage-scroll(https://github.com/peachananr/purejs-onepage-scroll)
