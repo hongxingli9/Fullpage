@@ -1,0 +1,47 @@
+.fullpage .page {
+	transition: transform 700ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
+	-webkit-transition: -webkit-transform 700ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
+}
+.page {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;	
+	background-position: center;
+}
+.pagination {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	list-style: none;
+}
+.pagination li {
+	position: relative;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+}
+.pagination li:after {
+	position: absolute;
+	content: "";
+	top: 50%;
+	margin-top: -2px;
+	width: 4px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: rgba(0,0,0,.85);
+}
+.pagination li.active:after {
+	margin-top: -5px;
+	background: none;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	border: 1px solid #000;
+	margin-left: -4px;
+}
+.fullpage .no-transition {
+	transition: none;
+	-webkit-transition: none;
+}
