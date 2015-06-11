@@ -3,6 +3,7 @@ pure js fullpage plugin
 
 纯js全屏滚动插件
 使用：
+<pre>
 <div class="main">
     <section class="page">
         <h1>Page 1</h1>
@@ -18,14 +19,13 @@ pure js fullpage plugin
     </section>
 </div>
 
-
-
 <script type="text/javascript">	
 	var container = document.querySelector(".main");
 	fullpage(container，{type:2});	
 </script>
-
+</pre>
 参数：
+<pre>
 options = {
 	sectionContainer		: "section",
 	start					: 0,    //开始页面
@@ -34,3 +34,4 @@ options = {
 	drag					: true, //是否允许在首尾页拖拽
 	pagination				: true  //是否分页标注
 }
+</pre>
