@@ -25,7 +25,7 @@ pure js fullpage plugin
 &lt;/script&gt;
 </pre>
 参数：
-<pre>
+```javascript
 options = {
 	sectionContainer		: "section",
 	start					: 0,    //开始页面
@@ -34,8 +34,8 @@ options = {
 	drag					: true, //是否允许在首尾页拖拽
 	pagination				: true  //是否分页标注
 }
-</pre>
+```
 
 参考：
-https://github.com/lvming6816077/H5FullscreenPage
-https://github.com/peachananr/purejs-onepage-scroll
+[H5FullscreenPage](https://github.com/lvming6816077/H5FullscreenPage)
+[purejs-onepage-scroll](https://github.com/peachananr/purejs-onepage-scroll)
