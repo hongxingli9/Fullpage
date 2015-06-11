@@ -37,5 +37,5 @@ options = {
 </pre>
 
 参考：
-https://github.com/lvming6816077/H5FullscreenPage(https://github.com/lvming6816077/H5FullscreenPage)
-https://github.com/peachananr/purejs-onepage-scroll(https://github.com/peachananr/purejs-onepage-scroll)
+https://github.com/lvming6816077/H5FullscreenPage
+https://github.com/peachananr/purejs-onepage-scroll
